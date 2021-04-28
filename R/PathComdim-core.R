@@ -34,6 +34,7 @@
 #'
 #' @author  {Veronique Cariou <veronique.cariou@oniris-nantes.fr>}
 #' @references {Cariou, V., Qannari, E. M., Rutledge, D. N., & Vigneau, E. (2018). ComDim: From multiblock data analysis to path modeling. Food Quality and Preference, 67, 27-34.}
+#' @export
 #'
 PathComdim=function(X,group,delta,ndim, scale=FALSE, threshold=1E-10, init=0){
   # ---------------------------------------------------------------------------

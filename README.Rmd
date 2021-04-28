@@ -1,5 +1,5 @@
 ---
-output: Comdim Package
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -47,4 +47,3 @@ res <- PathComdim(data,Group,delta,20)
 ```
 # How to cite
 Luong et al. (2021) International Journal of Food Microbiology
-
