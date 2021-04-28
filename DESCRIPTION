@@ -1,0 +1,15 @@
+Package: Comdim
+Title: Supervised and unsupervised multibock methods based on ComDim approach (Common Dimension and Specific Weights)
+Version: 1.0
+Authors@R: 
+    person(given = "Véronique",
+           family = "Cariou",
+           role = c("aut", "cre"),
+           email = "veronique.cariou@oniris-nantes.fr",
+           comment = c(ORCID = "0000-0003-4091-5910"))
+Description: This package provides main methods to deal with multiblock data in an unsupervised way (Comdim), supervised way as a (K+1) analysis (PComdim) or as a path-modeling way (PathComdim).
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

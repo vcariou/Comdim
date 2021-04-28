@@ -1,0 +1,50 @@
+---
+output: Comdim Package
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Comdim package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+ComDim (Common Dimensions) analysis was initially introduced within the context of sensometrics to
+analyze conventional and free choice sensory profiling data, and more generally multiblock datasets.
+Thereafter, it has gained some popularity in chemometrics and has been extended in different ways to
+meet specific needs. Recently, this strategy of analysis has been adapted to the supervised case, under
+the name of P-ComDim. Going further, an extension of ComDim to multiblock datasets related to each other by directed relationships has been proposed. In this latter case, 
+the datasets at hand are assumed to have a specific pattern of directed relations among them reflecting,
+for instance, a chain of influence. The aim of Path-ComDim is to analyze these datasets taking into
+account the structural connections among them. 
+## Installation
+
+You can install the released version of Comdim from [GitHub](https://github.com) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("vcariou/Comdim")
+```
+
+## Example
+
+This is a basic example which shows you how to apply Path-ComDim on a multiblock dataframe:
+
+```{r example}
+library(Comdim)
+## basic example code
+data(RedLosses)
+res <- PathComdim(data,Group,delta,20)
+```
+# How to cite
+Luong et al. (2021) International Journal of Food Microbiology
+
